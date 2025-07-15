@@ -1,0 +1,14 @@
+[Unit]
+Description=Kinect v2 Webcam with Zoom Compatibility
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/mnt/raid1/GitHub/black-panther/kinect/kinect-webcam-service-wrapper.sh
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

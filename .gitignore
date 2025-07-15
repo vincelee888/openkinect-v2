@@ -1,0 +1,149 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio/Video test files
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mkv
+test-recordings/
+audio-tests/
+
+# Build artifacts
+*.o
+*.ko
+*.obj
+*.elf
+*.bin
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Configuration files with sensitive data
+.env
+.env.local
+config.local.yaml
+settings.local.json
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# Backup files
+*.bak
+*.backup
+*~
+.#*
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+data/recordings/
+data/models/
+*.h5
+*.pkl
+*.joblib
+
+# System files
+.directory
+desktop.ini
+
+# NEVER commit these
+PRIVATE*
+private*
+SECRET*
+secret*
+credentials*
+*_KEY
+*_TOKEN
