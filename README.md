@@ -83,10 +83,10 @@ sudo apt install libfreenect2-dev v4l2loopback-dkms jackd2
 
 # Clone repository
 git clone https://github.com/BenGWeeks/openkinect-v2.git
-cd openkinect-v2
+cd openkinect-v2/scripts
 
 # Run installer
-./install.sh
+./install-kinect-v2.sh
 
 # Enable service
 sudo systemctl enable openkinect-v2
