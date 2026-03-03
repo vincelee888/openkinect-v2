@@ -17,8 +17,8 @@ This project provides **complete Linux support** for Xbox Kinect v2, filling the
 ```bash
 # Clone and install
 git clone https://github.com/BenGWeeks/openkinect-v2.git
-cd openkinect-v2
-./install.sh
+cd openkinect-v2/scripts
+./install-kinect-v2.sh
 
 # Start using Kinect as webcam
 openkinect-v2 start
